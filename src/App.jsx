@@ -25,7 +25,7 @@ function App() {
   const end = start + PAGE_SIZE;
 
 
-  return !products.length ? (<h1>Products not found!</h1>) : (
+  return !products.length ? (<h1 className='text-2xl font-semibold'>Loading...</h1>) : (
     <>
       <h1 className='font-semibold text-2xl mb-2 pb-2'>Pagination App</h1>
       <div className='justify-center flex flex-wrap gap-[2vw]'>
